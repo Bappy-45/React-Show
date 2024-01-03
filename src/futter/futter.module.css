@@ -1,0 +1,26 @@
+.main{
+    background-color: #000;
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
+    
+}
+.futter{
+    padding: 1rem;
+}
+main ul li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.icon{
+     margin: 5px;
+     font-size: x-large;
+}
+.list{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}

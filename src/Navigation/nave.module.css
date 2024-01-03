@@ -1,0 +1,45 @@
+.maindiv{
+    display: flex;
+    border-bottom: 2px solid #c9c4c4;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    z-index: 999;
+  
+    position: sticky;
+    top: 0;
+    background-color: rgb(230, 228, 228);
+   
+}
+.setchinput{
+    border: none;
+    padding: 12px 20px;
+    background: #f7f6f6;
+    outline: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 14rem;
+}
+.navicon{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
+    color: #8a4242;
+}
+.navicon:hover{
+    
+  color: rgb(216, 21, 86);
+}
+.label{
+    width: 150px;
+}
+@media (max-width:768px){
+    .label{
+        width: 90px;
+    }
+    .setchinput{
+        padding: 8px 16px;
+        margin-left: 10px;
+    }
+}
